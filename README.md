@@ -7,7 +7,7 @@ else
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("🏆 Race Clicker", "Synapse")
-local Tab = Window:NewTab("MainHEE")
+local Tab = Window:NewTab("Main")
 local Section = Tab:NewSection("Auto Farm")
 
 for i,v in pairs(game:GetService("CoreGui"):GetDescendants()) do -- GetDescendants
